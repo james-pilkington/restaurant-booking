@@ -66,6 +66,14 @@ header {
   background-color: #495e57;
 }
 
+#contact {
+  padding-top: 150px;
+  background-color: #495e57;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
 header section {
 width:80%;
 margin-left: 10%;
@@ -116,11 +124,12 @@ footer section {
 
 
 footer {
-  padding: 20px;
+  padding: 10px;
 }
 
 footer img {
-  height:300px;
+  height:150px;
+  padding-top: 30px;
 }
 
 form {
@@ -136,9 +145,10 @@ form {
   }
 }
 
+
 @media (min-width: 701px) {
 footer section {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   display:grid;
 }
 header section {
@@ -146,4 +156,41 @@ header section {
   display:grid;
   justify-items: center;
 }
+#hero {
+  text-align: center;
+  grid-template-columns: 1fr;
+  display:grid;
+  background-color: white;
+  color: #495e57;
 }
+}
+
+
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.carousel-content {
+  text-align: center;
+  margin: 0 1rem;
+  color: #495e57;
+}
+
+.carousel-content img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 1rem;
+} */
